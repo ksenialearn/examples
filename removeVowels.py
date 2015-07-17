@@ -8,8 +8,8 @@ def removeVowels(st):
 	while k<l:
 		if st[k]== 'a' or st[k]== 'i' or st[k]== 'o' or st[k]== 'u' or st[k]== 'e':
 			st1= st1
-			k= k+1
+		
 		else:
 			st1= st1 + st[k]
-			k= k+1
+		k= k+1
 	print(st1)
